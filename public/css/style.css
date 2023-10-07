@@ -1,0 +1,100 @@
+  /* Reset some default styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+nav a {
+    color: white;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+   
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.headline {
+    margin: auto;
+}
+
+.property img {
+    max-width: 700px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+    width: 100%;
+}
+
+.card img {
+    max-width: 700px;
+    height: auto;
+}
+
+.imgContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imgCard img {
+    width: 450px;
+    height: 600px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
